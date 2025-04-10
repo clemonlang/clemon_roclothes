@@ -230,7 +230,51 @@ function run(Player)
 							["z"] = 1.207716941833496
 						}
 					},
-
+					["TorsoMesh"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://13755434958",
+						["Color"] = "Base",
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "TorsoMesh",
+						["Parent"] = {
+							[1] = "Torso"
+						},
+						["Joint"] = {
+							["Part0"] = "Torso",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = 179.999991348578,
+									["x"] = -6.362426808311495e-10,
+									["z"] = -0.00009387990064223813
+								},
+								["Position"] = {
+									["y"] = 0.05200004577636719,
+									["x"] = 0,
+									["z"] = 0
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] = 0
+								}
+							}
+						},
+						["Material"] = Enum.Material.SmoothPlastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 1.998084545135498,
+							["x"] = 2.077857255935669,
+							["z"] = 0.966502845287323
+						}
+					},
 				},
 				Vaginas = {
 					Closed = {
@@ -1376,51 +1420,6 @@ function run(Player)
 								},
 								["Position"] = {
 									["y"] = 0,
-									["x"] = 0,
-									["z"] = 0
-								}
-							},
-							["CFrame1"] = {
-								["Rotation"] = {
-									["y"] = 0,
-									["x"] = -0,
-									["z"] = 0
-								},
-								["Position"] = {
-									["y"] = 0,
-									["x"] = 0,
-									["z"] = 0
-								}
-							}
-						},
-						["Material"] = Enum.Material.SmoothPlastic,
-						["Shape"] = Enum.PartType.Block,
-						["Size"] = {
-							["y"] = 1.998084545135498,
-							["x"] = 2.077857255935669,
-							["z"] = 0.966502845287323
-						}
-					},
-					["TorsoMesh"] = {
-						["Instance"] = "Mesh",
-						["MeshId"] = "rbxassetid://13755434958",
-						["Color"] = "Base",
-						["Function"] = {},
-						["Transparency"] = 1,
-						["Name"] = "TorsoMesh",
-						["Parent"] = {
-							[1] = "Torso"
-						},
-						["Joint"] = {
-							["Part0"] = "Torso",
-							["CFrame"] = {
-								["Rotation"] = {
-									["y"] = 179.999991348578,
-									["x"] = -6.362426808311495e-10,
-									["z"] = -0.00009387990064223813
-								},
-								["Position"] = {
-									["y"] = 0.05200004577636719,
 									["x"] = 0,
 									["z"] = 0
 								}
@@ -3607,7 +3606,7 @@ function run(Player)
 						Character[i.Name].Transparency = 0
 					end
 					
-			
+		
 					
 					for _, object in pairs(SelectedMorph.Limbs) do
 						Function.Weld(object, Character,Extra, Data)
@@ -3862,7 +3861,7 @@ function run(Player)
 					task.spawn(function()
 						PlayerData[player.Name]["SelectedMorph"] = Function.PartListDefault()[morph]
 						Function.CharacterExecute(player.Character, player.Name)
-						warn("Morph changed to " .. Function.PartListDefault()[morph])
+						warn("Morph changed to " ..morph)
 						
 					end)
 				end
