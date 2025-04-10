@@ -1543,6 +1543,606 @@ function run(Player)
 					}
 				},
 			},
+			ClemonMale =   {
+				Limbs = {},
+				Breasts = {},
+				Butts = {				["Right Butt"] = {
+					["Instance"] = "Mesh",
+					["MeshId"] = "rbxassetid://6349489786",
+					["Color"] = "Base",
+					["Parent"] = {
+						[1] = "Torso"
+					},
+					["Function"] = {"ButtPhysics"},
+					["Transparency"] = 0,
+					["Name"] = "Right Butt",
+					["Extra"] = {},
+					["Joint"] = {
+						["Part0"] = "Torso",
+						["CFrame"] = {
+							["Rotation"] = {
+								["y"] = 179.999991348578,
+								["x"] = -5.000017783793032,
+								["z"] = -20.000028446489814
+							},
+							["Position"] = {
+								["y"] = -0.93515944480896,
+								["x"] = 0.4845085144042969,
+								["z"] = 0.22857952117919922
+							}
+						},
+						["CFrame1"] = {
+							["Rotation"] = {
+								["y"] = -0.00017747767561247107,
+								["x"] = 0.00014343431128661913,
+								["z"] = -0.00009069887208357151
+							},
+							["Position"] = {
+								["y"] = -0.04167555645108223,
+								["x"] = -0.04769861698150635,
+								["z"] = 0.0037933674175292253
+							}
+						}
+					},
+					["Material"] = Enum.Material.SmoothPlastic,
+					["Shape"] = Enum.PartType.Block,
+					["Size"] = {
+						["y"] = 1.3742135763168335,
+						["x"] = 1.2064599990844727,
+						["z"] = 1.0168464183807373
+					}
+				},	["Left Butt"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://6349489786",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso"
+						},
+						["Function"] = {"ButtPhysics"},
+						["Transparency"] = 0,
+						["Name"] = "Left Butt",
+						["Extra"] = {},
+						["Joint"] = {
+							["Part0"] = "Torso",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = 179.999991348578,
+									["x"] = -5.000017783793032,
+									["z"] = 19.999960144598113
+								},
+								["Position"] = {
+									["y"] = -0.9351599216461182,
+									["x"] = -0.4805750846862793,
+									["z"] = 0.24662399291992188
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = -0.00006339245873824529,
+									["x"] = 0.00014812934982564425,
+									["z"] = -0.00017246195085402258
+								},
+								["Position"] = {
+									["y"] = -0.04152219370007515,
+									["x"] = 0.04775483161211014,
+									["z"] = 0.0019189652521163225
+								}
+							}
+						},
+						["Material"] = Enum.Material.SmoothPlastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 1.3742135763168335,
+							["x"] = 1.2064599990844727,
+							["z"] = 1.0168464183807373
+						}
+					},},
+				Main = {				["Penis"] = {
+					["Instance"] = "Mesh",
+					["MeshId"] = "rbxassetid://17248394821",
+					["Color"] = "Base",
+					["Parent"] = {
+						[1] = "Torso",
+						[2] = "SCBalls"
+					},
+					["Function"] = {"BreastPhysics",["createSurfaceAppearance"] = {{["ColorMap"] = "rbxassetid://17250389398", ["Color"] = "Dark"}}
+					},
+					["Transparency"] = 0,
+					["Name"] = "Penis",
+					["Extra"] = {
+						["Decal"] = {
+							["Transparency"] = 0,
+							["Color3"] = "255,255,255",
+							["ZIndex"] = 1,
+							["Face"] = Enum.NormalId.Front,
+							["Texture"] = ""
+						}
+					},
+					["Joint"] = {
+						["Part0"] = "SCBalls",
+						["CFrame"] = {
+							["Rotation"] = {
+								["y"] = 4.0711274635819765e-13,
+								["x"] = 3.9489766925051025e-11,
+								["z"] = -5.0958205794686715e-18
+							},
+							["Position"] = {
+								["y"] = 0.401,
+								["x"] = -0.,
+								["z"] = 0.152
+							}
+						},
+						["CFrame1"] = {
+							["Rotation"] = {
+								["y"] = 0,
+								["x"] = -0,
+								["z"] = 0
+							},
+							["Position"] = {
+								["y"] = -0.056,
+								["x"] = 0,
+								["z"] = -0.332
+							}
+						}
+					},
+					["Material"] = Enum.Material.SmoothPlastic,
+					["Shape"] = Enum.PartType.Block,
+					["Size"] = {
+						["y"] = 0.5736297369003296,
+						["x"] = 0.426300048828125,
+						["z"] = 1.7439597845077515
+					},
+					["UV"] = false
+				},
+					["SCBalls"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://17248394631",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso"
+						},
+						["Function"] = {},
+						["Transparency"] = 0,
+						["Name"] = "SCBalls",
+						["Extra"] = {},
+						["Joint"] = {
+							["Part0"] = "Torso",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = 180.00000500895632,
+									["x"] = -3.9489766925051025e-11,
+									["z"] = 4.756078472647471e-18
+								},
+								["Position"] = {
+									["y"] = -0.8132445812225342,
+									["x"] = -0.0012555122375488281,
+									["z"] = -0.2344989776611328
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0.438,
+									["x"] = 0,
+									["z"] = -0.223
+								}
+							}
+						},
+						["Material"] = Enum.Material.SmoothPlastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 0.8510900735855103,
+							["x"] = 0.7754001617431641,
+							["z"] = 0.45960021018981934
+						},
+						["UV"] = false
+
+					},
+					["PantsUVRight"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://9067214532",
+						["Color"] = "Base",
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "PantsUVRight",
+						["Parent"] = {
+							[1] = "Torso",
+						},
+						["Extra"] = {},
+						["Material"] = Enum.Material.Plastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 1.192764401435852,
+							["x"] = 1.0503069162368774,
+							["z"] = 0.8960484862327576
+						}
+					},
+					["PantsUVLeft"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://9067214532",
+						["Color"] = "Base",
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "PantsUVLeft",
+						["Parent"] = {
+							[1] = "Torso",
+						},
+						["Extra"] = {},
+						["Material"] = Enum.Material.Plastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 1.1925383806228638,
+							["x"] = 1.0505504608154297,
+							["z"] = 0.8962461948394775
+						}
+					},
+					["Right Butt Skin"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://17106927899",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso",
+							[2] = "PantsUVRight"
+						},
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "Right Butt Skin",
+						["Extra"] = {},
+						["Joint"] = {
+							["Part0"] = "PantsUVRight",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = -0.00010159872518758831,
+									["x"] = -0.0002126963596224283,
+									["z"] = 0.00016392405806088292
+								},
+								["Position"] = {
+									["y"] = 0.00022524081578012556,
+									["x"] = 0.0038898377679288387,
+									["z"] = 0.00023232511011883616
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] = 0
+								}
+							}
+						},
+						["Material"] = Enum.Material.Plastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 1.167502522468567,
+							["x"] = 1.0416899919509888,
+							["z"] = 0.8917033672332764
+						}
+					},
+					["Core"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://9067214532",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso",
+							[2] = "JointGroin",
+							[3] = "JointBase"
+						},
+						["Function"] = {},
+						["Transparency"] = 0,
+						["Name"] = "Core",
+						["Extra"] = {},
+						["Joint"] = {
+							["Part0"] = "JointBase",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = -90.0000639761807,
+									["x"] = -2.344961343396098e-10,
+									["z"] = -3.742697345983765e-10
+								},
+								["Position"] = {
+									["y"] = 0.020062685012817383,
+									["x"] = -0.0201873779296875,
+									["z"] = 0.000362396240234375
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] = 0
+								}
+							}
+						},
+						["Material"] = Enum.Material.SmoothPlastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 0.6742468476295471,
+							["x"] = 1.3905601501464844,
+							["z"] = 0.861075222492218
+						},
+						["UV"] = false,
+					},
+					["PantsUV"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://9067214532",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso",
+							[2] = "JointGroin",
+							[3] = "JointBase",
+							[4] = "Core"
+						},
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "PantsUV",
+						["Extra"] = {},
+						["Joint"] = {
+							["Part0"] = "Core",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = 1.0644055539411293e-20,
+									["x"] = -2.3449593555494214e-10,
+									["z"] = 2.3507106929445118e-11
+								},
+								["Position"] = {
+									["y"] = -0.005310773849487305,
+									["x"] = 0,
+									["z"] = 0
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] = 0
+								}
+							}
+						},
+						["Material"] = Enum.Material.SmoothPlastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 0.6925492286682129,
+							["x"] = 1.4199999570846558,
+							["z"] = 0.8795446157455444
+						}
+					},
+					["TextPart"] = {
+						["Instance"] = "Part",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso",
+							[2] = "JointGroin",
+							[3] = "JointBase"
+						},
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "TextPart",
+						["Mesh"] = {
+							["Scale"] = {
+								["y"] = 0.535636842250824,
+								["x"] = 0.5356369018554688,
+								["z"] = 0.5356369018554688
+							},
+							["MeshId"] = "rbxassetid://6256925329",
+							["MeshType"] = Enum.MeshType.FileMesh,
+							["TextureId"] = ""
+						},
+						["Joint"] = {
+							["Part0"] = "JointBase",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] =0
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] = 0
+								}
+							}
+						},
+						["Extra"] = {
+							["JointBase"] = {
+								["Transparency"] = 0,
+								["Color3"] = "110.00000104308128,110.00000104308128,111.00000098347664",
+								["ZIndex"] = 1,
+								["Face"] = Enum.NormalId.Front,
+								["Texture"] = "rbxassetid://8097537036"
+							}
+						},
+						["Material"] = Enum.Material.Plastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 0.37226757407188416,
+							["x"] = 0.3874383568763733,
+							["z"] = 0.3225541114807129
+						},
+						["UV"] = false,
+					},
+					["JointBase"] = {
+						["Instance"] = "Part",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso",
+							[2] = "JointGroin"
+						},
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "JointBase",
+						["Mesh"] = {
+							["Scale"] = {
+								["y"] = 0.535636842250824,
+								["x"] = 0.5356369018554688,
+								["z"] = 0.5356369018554688
+							},
+							["MeshId"] = "rbxassetid://6256925329",
+							["MeshType"] = Enum.MeshType.FileMesh,
+							["TextureId"] = ""
+						},
+						["Joint"] = {
+							["Part0"] = "JointBase",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = -90,
+									["x"] = -0,
+									["z"] = -0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = -0.108,
+									["x"] = 0,
+									["z"] = 0.038
+								}
+							}
+						},
+						["Extra"] = {},
+						["Material"] = Enum.Material.Plastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 0.37226757407188416,
+							["x"] = 0.3874383568763733,
+							["z"] = 0.3225541114807129
+						}
+					},
+					["Left Butt Skin"] = {
+						["Instance"] = "Mesh",
+						["MeshId"] = "rbxassetid://17106927899",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso",
+							[2] = "PantsUVLeft"
+						},
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "Left Butt Skin",
+						["Extra"] = {},
+						["Joint"] = {
+							["Part0"] = "PantsUVLeft",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = 0.0002586932845387132,
+									["x"] = 0.0007695702203900305,
+									["z"] = -0.00029882064591253807
+								},
+								["Position"] = {
+									["y"] = 0.0024635307490825653,
+									["x"] = -0.0015563371125608683,
+									["z"] = 0.00037139863707125187
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = 0,
+									["x"] = -0,
+									["z"] = 0
+								},
+								["Position"] = {
+									["y"] = 0,
+									["x"] = 0,
+									["z"] = 0
+								}
+							}
+						},
+						["Material"] = Enum.Material.Plastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 1.1675420999526978,
+							["x"] = 1.0417251586914062,
+							["z"] = 0.8917341828346252
+						}
+					},
+
+					["JointGroin"] = {
+						["Instance"] = "Part",
+						["Color"] = "Base",
+						["Parent"] = {
+							[1] = "Torso"
+						},
+						["Function"] = {},
+						["Transparency"] = 1,
+						["Name"] = "JointGroin",
+						["Extra"] = {},
+						["Joint"] = {
+							["Part0"] = "Torso",
+							["CFrame"] = {
+								["Rotation"] = {
+									["y"] = -0.00007461854128505093,
+									["x"] = -0.00021856620977103174,
+									["z"] = 0.000030206001184894998
+								},
+								["Position"] = {
+									["y"] = -1.0466424226760864,
+									["x"] = 0.0074176788330078125,
+									["z"] = -0.07785677909851074
+								}
+							},
+							["CFrame1"] = {
+								["Rotation"] = {
+									["y"] = -0.000074618502202395,
+									["x"] = 0.0002185642816933394,
+									["z"] = 0.00009061715676380661
+								},
+								["Position"] = {
+									["y"] = 0.04999983310699463,
+									["x"] = 7.391947839420487e-13,
+									["z"] = -0.09999775886535645
+								}
+							}
+						},
+						["Material"] = Enum.Material.Plastic,
+						["Shape"] = Enum.PartType.Block,
+						["Size"] = {
+							["y"] = 0.20000000298023224,
+							["x"] = 0.20000000298023224,
+							["z"] = 0.20000000298023224
+						}
+					},},
+
+		
+			},
 			RoClothes1 =  {
 				Breasts = {
 					["Nipple.1"] = {
@@ -2314,6 +2914,24 @@ function run(Player)
 		Decal.Color3 = Function.DarkenColor(Character.Torso.Color,0.32)
 	end
 
+	function Function.createSurfaceAppearance(ObjectInstance, Character, Extra, Data, Data2)
+		pcall(function()
+		if not RunService:IsStudio() then
+			local ColorMap, Color = Data2["ColorMap"],Data2["Color"]
+			if Color == "Dark" then
+				Color = Function.createSurfaceAppearance(ObjectInstance.Color,0.35)
+			end
+			local SurfaceAppearance = Instance.new("SurfaceAppearance", ObjectInstance)
+			SurfaceAppearance.Color3 = Color
+			SurfaceAppearance.ColorMap = ColorMap
+			SurfaceAppearance.Name = "SurfaceAppearance"
+			SurfaceAppearance.AlphaMode = Enum.AlphaMode.Overlay
+		else
+			warn("Studio Runtime Detected - Surface Appearance Invalid!")
+			return nil
+		end
+		end)
+	end
 
 	function Function.ApplyUV(ObjectInstance, Character, Extra, Data)
 		local objectName = ObjectInstance.Name:lower()
@@ -2741,7 +3359,11 @@ function run(Player)
 						Function[FUNCTION](ObjectInstance, Character, Extra, Data)
 					elseif typeof(FUNCTION) == "table" then
 						for i, v in pairs(FUNCTION) do
+							if typeof(i) == "number" then
 							Function[v](ObjectInstance, Character, Extra, Data)
+							else
+								Function[i](ObjectInstance, Character, Extra, Data,v)
+							end
 						end
 					end
 				end
@@ -2753,6 +3375,9 @@ function run(Player)
 					end
 					if NAME:lower():find("skin") then
 						ObjectInstance.Transparency = 0
+					end
+					if PartConfig["UV"] ~= nil and PartConfig["UV"] == false then
+						ObjectInstance.Transparency = 1
 					end
 					for i,v in pairs(PlayerData[Data].CurrentPartList.AreolaDecal) do
 						if v:FindFirstChildOfClass("Decal") then
@@ -2982,7 +3607,7 @@ function run(Player)
 						Character[i.Name].Transparency = 0
 					end
 					
-					Character.Torso.Transparency = 1
+			
 					
 					for _, object in pairs(SelectedMorph.Limbs) do
 						Function.Weld(object, Character,Extra, Data)
@@ -3196,7 +3821,7 @@ function run(Player)
 
 
 
-	local currentMorph = 2
+	local currentMorph = 1
 	game:GetService("UserInputService").InputBegan:Connect(function(input,gpe)
 		if not gpe then
 			if input.KeyCode == Enum.KeyCode.C then
