@@ -45,7 +45,7 @@ make sure your part names have full words for correct sorting, such as, "Butt, B
 
 -- 
 
-Default morph: clemonfemale (UV, physics)
+Default morph: clemonfemale (UV, physics), clemonMale (uv, physics)
 
 keybinds: (dev)
 
