@@ -1,7 +1,9 @@
 # clemon_roclothes
 roclothes edit (by clemonlang)!!!
-hastily thrown together, maybe il fix later (INDEV)
+hastily thrown together, maybe il fix later
 
+(INDEV)
+MADE for roblox executors, fully client sided😢
 --
 
 
