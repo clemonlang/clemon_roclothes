@@ -5,6 +5,7 @@ hastily thrown together, maybe il fix later
 (INDEV)
 MADE for roblox executors, fully client sided😢
 --
+this script WILL give you roblox boobs. BEWARE.
 
 
 use partcacher to create tables for quicker morphs
