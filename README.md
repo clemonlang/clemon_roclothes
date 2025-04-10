@@ -14,7 +14,6 @@ edit adjustscale if you have werid positioning and sizing
 create Physics and PhysicsRotationOffset subtables with XYZ values for custom physic spring rotation offsets
 extra includes decals if inside the part
 if your morph has no UV, set NoUV = true
---
 
 
 the script will (attempt) to organize your parts based off names for functions such as UV and transparency order
