@@ -35,13 +35,8 @@ create Physics and PhysicsRotationOffset subtables with XYZ values for custom ph
 extra includes decals if inside the part
 
 
-if your morph has no UV, set NoUV = true
 
-
-the script will (attempt) to organize your parts based off names for functions such as UV and transparency order
-
-
-make sure your part names have full words for correct sorting, such as, "Butt, Breast, UV, Leg, Arm, Texture"
+the script will (attempt) to organize your parts based off the names
 
 -- 
 
